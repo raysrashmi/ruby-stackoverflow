@@ -10,7 +10,6 @@ module RubyStackoverflow
     it 'should get questions' do
       VCR.use_cassette('questions') do
         response = RubyStackoverflow.questions
-        p response.data
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:answer_count).should be_true
       end
@@ -46,7 +45,6 @@ module RubyStackoverflow
     it 'should get linked questions' do
       VCR.use_cassette('linked_questions') do
         response = RubyStackoverflow.linked_questions(['13804832'])
-        p response.data
         response.data.is_a?(Array).should be_true
       end
     end
@@ -71,7 +69,6 @@ module RubyStackoverflow
     it 'should get featured questions' do
       VCR.use_cassette('featured_questions') do
         response = RubyStackoverflow.featured_questions({page: 1,pagesize: 1})
-        p response.data.first
         response.data.is_a?(Array).should be_true
       end
     end
