@@ -1,0 +1,31 @@
+# Ruby::Stackoverflow
+
+Ruby toolkit to Stackoverflow api 
+
+## Install
+Add this line to your application's Gemfile:
+
+    gem 'ruby-stackoverflow'
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install ruby-stackoverflow
+##Configuration
+You can add your key and access-token for higher rate limit.
+To get Key and Access Token you have to register your app to http://stackapps.com/
+Run command in your application dir.
+
+    $ rails generate ruby-stackoverflow --client_key=<key> --access_token=<access token>
+This command will create a ruby_stackoverflow.rb file in config/initializers.
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request

@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/users/1363236/questions/no-answers?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMToyMTozNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDAx
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAIWSwY6jMAyGXwXlMCcYCpQOQar2uNe9r0bIDYZaDQmTmDJV
+        Ne++gdLVHFbanCLbv387X+6CGAcv6t938TGhZ7KmoVbUmSzLvNpVsVAOYQ23
+        wBgSRZWXh32xL2OhwXMDiulKfPtH3ivrllAswPgZXaPsZFjUu1gwsQ4pcbZz
+        xDYi4xm0jjSdHNquI4WRNdEZnb1MIpRDvwwptsB7LK6E87NfFhra2aAT9V1M
+        PhitKxSHIi8OsWjJjxpujYFhsXRw8w78eaDQ2OE48bpfEJRh0lXOt3GtxJ48
+        o8M2VI7OdqSxoQH6dXLm0ddpOs/za+/gCgzuVdkhfVxTLLCUeaHeMJflPisr
+        lCd52u1loWRW5OqHP2Z59dIeqUXDpKx5ccdfP4OTJnPZDEL/8DDqYq/oOm3n
+        1WAZ0afbeum3db7+r31CDvqNcBoQJGyTDUHyDUFiTfIXAfnmQTG8Rt2B9vgV
+        MHxMlqFxOAAZMr2opXw7PMMDfC5wwonFGXwzrN/hof0D/bUbfHoCAAA=
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:21:34 GMT
+recorded_with: VCR 2.6.0

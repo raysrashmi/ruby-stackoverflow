@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/unanswered?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&page=1&pagesize=1&site=stackoverflow&tagged=rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozOCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDYy
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAIWSTY+bMBCG/wryISe8hG9CFfW4h73svarQxEwSF7BZewhF
+        Uf57bWgi9VSfrPl8Z565M0k4WFb/uLOvCS1JrRrZsjo+5IeqqOKQCYOwmlsg
+        dI60Sso02ZfO1YOlBgTJm6TlH3+RZVnIrNDGm0IGys5oGqEnRauBJPXOxT6N
+        HtEEMywB6WDthQEEu69J0zd71fP2C0a4YEBXoAD6Xs82GNAnTGO7JqhAn36h
+        IOYqw8XPw8x0WrhW3IDsLfsZspvE+aWgCJmeFRpW39lknTQ/dJ4Wxb4MWSvt
+        2MPSKBi8xg+Une4mV9vgONG6DVYnae7mWHNpGX2cwYu0hAZbFzoafZY9NnJw
+        yp3zSjTaOormeX67GLgBgXkTeoi2b5SIM1SViMs0xX3b5vH5VAIUaQ5tlVRZ
+        9t0e46TatUfZoiIptNqZ4+e769RL1f1t4OpbAtHpG5qzW9PawEu00TZb1L1m
+        ASFwpMas1A7F4/+Fngdio+d1ROOKjzt8nDTf8HHgHhz3yLhHxjdkfEAftCHj
+        oPgLmbTNdiBuc/UZeosPx8uDh8bgAFJJdXEiD0XxNA/w21HcuxeyK9hmWC+N
+        zISPP4wX6PTUAgAA
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:38 GMT
+recorded_with: VCR 2.6.0

@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/no-answers?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&page=1&pagesize=1&site=stackoverflow&tagged=rails
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozOSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDUy
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAIVSwY6bMBD9FeRDTniBhBBAinroodfeqwpNjCHeNTZrD6Eo
+        yr937N3sqVK5MLwZ5s28N3emUE6etb/u7H2RHpU1nepZWzTHpqlOx5QJJyHC
+        PaCkxKHenw7VocpTpsFjBwLVTeH2j7wX1hFEERi/StcJuxiMACrUlGLfnTXJ
+        q70keAVMBGjtE0gWp5PBOoocqIDMcyJv0m1JkUzKLERELWAMgzO3XDZuDY+l
+        hIdveglqEl5EwH6n7Kbk+uSvUmZXIx1r72zxNFfYeH8qq7IsU9YrP2vYOgNT
+        mBAECAWhr5wXjFJQMa0Q/8RtDkVOjsqjdLKnwtnZQWnZqQnGkLwizr7NsnVd
+        X0YHN0BwL8JO2UeYVZD3fVOIY1PUQ51LkefFZR+FHOpSiG/+XOzrXX9WvTSo
+        hDU7d/75YzecC2LTyrx9khCHRxBvlqQatF0jSRjTZ5/bZV/bgBByxs5F06ry
+        8f9Gz/vw2fM4siAuJ/d4cI9H9zhwEp6TexRFSzi5x6N7vOBf7inffRwFSdYO
+        oL18kEvvi0XonJxAGWVG1hLP8QlP8IfuK6cnZVfw3RSvC90iH38Bpwuz4cgC
+        AAA=
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:39 GMT
+recorded_with: VCR 2.6.0

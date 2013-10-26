@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/users/1363236?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMToyMDo1NyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDI5
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAHWSTY+bMBCG/0rlw57Q8mEgASnqsddKe6wqNJgJWPEHa5tQ
+        GuW/dyBJdyulPlnz+h3PPDMXJgNqz+ofFzZ5dI3sWJ3ykme8jG6RsIzIauaw
+        lz6gw45FTDiEIK1pOgi4GnhRkonvItZJPypYGgN6s8HiHfhBS7KNzh6lwkZq
+        6FdxCGH0dRzP8/zaOzhDAPcqrI5v1xg5FlXGxQ6zqsjTYo9VW7VJXnFRpTwT
+        X/0hzfYv3UF2aIIU1ry4w/dv9JPDcQpbiVRdkX4ONGIA0yOVvrA6eabMiCdW
+        58UzTVsTBsqZPVXfJ3DE6L/6grCKBX2rwIcGhEDv/1LcZzvOefVQte3kUWL3
+        SS/KPOE8YtI3qEdlFyThCMojeaQ53aESUx9AnOwZ3VHZeYO6TtPH9+HG/wxm
+        xtbTIjSTUx8ZPl6sdnqlrLgjZW/BitNglY6+vM1I9EmmZuxkwm2F8jxPSlqh
+        FjrqexNoyy6st6rbsHupzispurbOmt/UR3G9/ozY+2QDNA41SCNNz+qq2vNH
+        WMMvSp7QidgAnhC5B4DrH/2cQjXMAgAA
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:20:57 GMT
+recorded_with: VCR 2.6.0

@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/19294359?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDYy
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAIVSTY+jMAz9KyiHOcHw1fIlVaM5zXXvqxWygqGZQsIkpiyq
+        +t/XMHR7WWlzerLz7Gc/34QiHJyoft7E14SOlNG1akQVl0l5SI+lL3pwVGOj
+        qG6AkDNpEWdZccwjX0iLsFGeqUOUMnGngSR1VbT8g+qksRxiBNrNaGtpJk2i
+        YipIiSNhU++Zv3oOUewLUtQzUXwgeeBdcPFaawaGn3AFJ60aOW4tLN58Rr3D
+        MzjP6H7xYg97HJA7cSXo1snFk8jB7b8Tv3xxVTg/VOWFL8ys0YrqJia3i0rS
+        JM/K3BeNcmMPS61hWKW9gzWaa1kcJ9oWJKpDwpNtTFrG9ZPFTjlCiw3/HK1p
+        VY+1GqBbk2ei0VVhOM/za2dZH4F9lWYIv2GYySxPkugYxUUEZZHBEVtZRDJv
+        Y8A0bd7cKU6Kl+akGp5VSaNf7OnHB3fqlb7sDbi+I5AXc0Xb9mbeGqwSXbhP
+        FsI+ybcltd1sLA/3/9d5XJMLH6cUdkgBBOxYsDrG8Ln4YFt7sDq2Q3YsWB0L
+        4uDpmHL7TfDSKrIT3tmnr8kQ1BYHUFrpjvWVefwID/Cbjyfi5wsuWQ/b1bXQ
+        O7z/ATLeIrH9AgAA
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:34 GMT
+recorded_with: VCR 2.6.0

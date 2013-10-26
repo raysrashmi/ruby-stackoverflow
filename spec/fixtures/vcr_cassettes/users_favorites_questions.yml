@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/users/707894;1004415/favorites?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMToyMToyMCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTAzMQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAK2WXW/bNhiF/wqhAbkyK5GiJMpDUAQb0HXogALZ3TAINEnZ
+        bCVREel4XpD/3pey7Dq2gzRobmSLn+fwPHqlh8h43bpo/s9DdLfWzhvbVUZF
+        c8JJRjNezKJGOF9pZXylhNfQkxZ5StKcZ7NIDlqMU753JUVCcjpNE9Kbe+O3
+        x1N5WeR8Fjlph9A0i0TnNnqopF13Ppqn0CCl7r1W1dRz0FNQ0LMI47aVaHfj
+        s2QWeeMbWCtqtV9ZhUyHBGqt0g3yFrXCyxW6+fQJCeesNKNgdC8asBvBXLEM
+        9qNhvdhi2+FBmCa0h/vp59CMU2jprfPLQbu7JgpSwaAeNJhR0b+z6N7ozd4J
+        ycCc3XR6iOYP0drtnbC8zGk+i5RxfSO2VSfaIP5PC3o/DKLrxLi/7td+1BrN
+        WQ4mxwX8tg9jB700zsO+KggabG0aXZlWLEPnyvvezeN4s9m8Ww7iXngxvJO2
+        jXd/Y5EzyVhNCCNM1qQsqMyp0gkjipVc6vfumlB+pa6N0p030nZXw/XnD7BT
+        Y7qv0wawvvNCfrXgvm7sZtwgSHTxZDD+Aobw8mBol2o1jCRk2ePLy+2BhCUn
+        GuNdwth0WOAxYewtHhPGomnwUcL4kLBxE0hwWnM/rPXj7BR2miYFP8eZUkrK
+        PC/YszgTVuYsKw44p+yU5/wZnmlKyiN0/7AbpCz6iK5+SctfQbsJe4w3CHBV
+        oHaw24D2HtAXwJVwHgs40XMqk7S4xCUlKSnOqLz1ul/pDv0mlqDzKZY0zfgb
+        clmSgpZKZFQmnCcy5UlaZ4s61wuuF7pkP8vlaBB6R0NYToaeYMnp67AcuYlX
+        doOVxQbvYwtxTIkFVPfJvAwiSzPCGbtUdBklBcuz/AKlJYF5SUmeozQnPKcF
+        P6KU/mDVhXVh4/IpplBTh/XEIXII9zwJiMK1t4N//wKax8X0FE3CwyNxjiaD
+        ihJUnLDZNv8v7PYESlgje0MoU8F1sdA5USLJk5oVCVeKSi1lLUSRZT8L5c5a
+        fLDyBMeCvQrHiZ6RRyiLENJ00i5kFA4eriGjH2KxAHDKkl9ikbAEXuRJeuED
+        gKQlxMiS51j8PvW5DwByGUWQU3ByhOJNL+RKQ2FyTnRqEOh3CAzdQlsrUG0H
+        9PfGeIgd3XoQ2ZpuiW4+fzyiU/Qm3O1GwT+3HzdWz2nVU0az8HSeEwrFnJH0
+        jNC/xBej0E1Tm9qccMrZG1LKS5bmEl7imZJCck0JSTJ4zWc8WVBV/3Tp3NmL
+        22AHXrSTnSeskiR5FawTXrEYY8SHA8dAisBujBFDjHgKCB/iwbvgzgmGqO7W
+        1otqgLmmC0nOy7Io982t+G/UmQCdK+GqdgSwFo3Tj98AvEvClwkLAAA=
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:21:20 GMT
+recorded_with: VCR 2.6.0

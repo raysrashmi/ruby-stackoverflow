@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/featured?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&page=1&pagesize=1&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozNSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDk0
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAIVSyY7bMAz9lUAFcrLHWxwvRVAULdAFPfTS6aEoDFqmHc3I
+        lkei4wZB/r2Sk0wuBXoSKfI9Lo8nJgh7w8pfJ/YyoSGhhko0rIyKNMy2SeEx
+        CYYqbARVDRDaSJLHWbLNssxjXCMskHtoE6ZFml1hwEkcBB3/ATVcafsVegwG
+        M6OuuJoGYmXssdpZx4pLZdDcoUmch2l4j0N/QUShJSFB0qaxH19+Yv0ocF59
+        VGiG9ZukeEurbwqa1QfVjxIJ5dFbfUbR7Wn1CFqgYRYOnVsCE8p5qn5C1zn6
+        3HqTmLE+WMrFNlwrKRf3t8fce+t8m1jkPKBm5YlNxo7kFhlHcbp02AgzSjhW
+        A/Su0fdfoyi2jBrHiZYlWobcTrcg6Ti6JI2dMIQaG5s5atUKiZXooXPBPdFo
+        yiCY5/mh03AAAv3AVR9czKCABpIw3HAe1nW8zXmW5uk2y9u2STbI83dmF8X5
+        utmJBgcSXA1rvfv+yVaSYni+FrD8hoA/qwPqVqp5KeBaNMF1sgCeLpMA5zhS
+        pRe98uL8f57bxZngdm7B67L9xulHvrTS+fxVOn+/KOcfbsoJU10OyO6obEEa
+        PFtdXiZFUGnsQQxi6FhZFFl4++7hz3I1TpU9mKpfLpH0hOe/is/hHRADAAA=
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:35 GMT
+recorded_with: VCR 2.6.0

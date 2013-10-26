@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/badges/?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&max=bronze&min=gold&site=stackoverflow&sort=rank
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDo1MSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NzA5
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEALWXy3LiMBBF/8WzDE77gS2JX5maooSsYCfYVmRBwqTy7yM7
+        jyEtlFWHHZR9+1SrdSReks7pfko2v1+SnWz2ets1yaaoy1Vi5fCQbJKdHYe/
+        Olklg+y1/67s2bhxb6Vpz/5X+SRts1XjcXDJJq9X7ynubOaHndxvd3LSjX/y
+        0C15rXNmAzA5qR7Gk7Z3h/HpVo09LC9O4GvDlxqvq69o6yia1Xfa6kFpzFUI
+        Cq41/C+Aoap4v4ImZSWjwKlABRh1FKM/nfqfaUsNSzZGYVEUc3btOARtqfKC
+        AofBez4G4nGg1gQ0nJE0h8McjlHENyO8188YZl2SsAh4S0c0LIvSjLt7rVx3
+        0mkwxUxQrBbL4LIGJsujZPpZ6UPARLGvWA5v4RimiMJM2p4O2k3B/sooeAr4
+        zMdI31j6F4YpC5LtzspQOyyu5EYfTNulRZaJYIuRDNAaLktgsLgP7+VJButV
+        c07BVMOSjmHiRuyMF1ZwauUZzylwGLznY6C4ESetjrZzwQHPSSaaw2c+Roqb
+        sZeuDXBIJlrAko1QeFyL8l4Gjs5JxplnsIRjlrgIlZzcQadyUajVarRNgEYB
+        lsO1Spgz7shuaLVfcXnldlaVFIAFXJbAYHFT3g7ahWpaUww6L2EOxyxxW/ba
+        7oP2UBxqfA1v2Zglfm81Pma0/bUFywWFJnkFlzUwWVzd6uYmIGKMZMrr8HDj
+        cW1Pj+EVpCDhYDBnY5K4r5/MXXi5JyHhMGdjkrimZz2Mw6RsZ1xaYihRUTAJ
+        QFUQnvhG3ZO5tuFZRmFv4e09mfTKnhdxgcuhsWMXSrtkFH+mRQ4fBTBS3NVz
+        h9LytgqZKIgKWOLTKiCKS9pbQksVnP8kHSrhI/31zyp5PI5Obq3uZTd0w96P
+        rKj4x8+9P5r9tcx/Vkkrp23vX0w2zh716z85BL/wSREAAA==
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:51 GMT
+recorded_with: VCR 2.6.0

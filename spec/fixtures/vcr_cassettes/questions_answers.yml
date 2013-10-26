@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/16067043;19401289/answers?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozNyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NTEz
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAK2Uy27bMBBFfyXgIivZ4kMPyoDRXV+bBAW6aVEII4qSGUui
+        SlJWncD/Xkp2GtRxiwTtTuDMJeeeO9ADUk62Fq2+PqDvg7RO6S5XJVqRLMKE
+        8ixA0NlRml+HcYZxgISRMPeW4KQvME4yxgjz/Q1Yl4Nwaqfc/kLdCm38kb9E
+        Wd8nZO+kv7uCxsoA6bGTBq0e0GAfHyURSxkNUKls38A+76D1evRJic3VrRRb
+        FCAj+8HNA/n+OGbBUe72/dRpZK2sk8Y/E6De6Eo1Mlct1FNx41y/CkO1tA7E
+        dqnaejBLoduwffv55sPyrq/f2LUncV2viZc3qts+qWaN3klTNXqcVdO7NjzN
+        HBo/46KfZjwcgpcS9lp6mTDFESV/IXyqnwiTM8LODBcBc0ZIlj7j+xG2Q3F1
+        U+h7OCfMIvJKwtbDGsdxWRvYgYMj4eNnSGPAGKqKZTItQGCISy5LIjLKq5RK
+        duJfrlUpO6eE7q7N+vbdi8M4+gvvJj8LPfu5kEaCkxRH7Pc0EpImjPELaSRJ
+        GmHO6Z/SeKq/dt95msYcP4vjC/h1fw+NPA/jPyZR+gUqwC9vCllZFd47xcCB
+        QlQQGVf8n5OYrYX33spiM1k5HL4FPgftIDeyBdWprkarLEv443ELP7xHjKef
+        zgZs3s4wZ3iHn0oB5Nu9BAAA
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:37 GMT
+recorded_with: VCR 2.6.0

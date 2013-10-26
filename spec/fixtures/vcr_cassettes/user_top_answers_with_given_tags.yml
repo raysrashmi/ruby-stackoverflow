@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/users/707894/tags/ruby;rails/top-answers?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMToyMDoyOCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NTgz
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAO2WTY/bIBCG/wuHPVkbBoOBSFGPvfZeVRa1cRatvwokaRTl
+        vxc7TqP12pGyu0f7ZPGOPTCPXmZOyHhdObT+eUJ/dtp509SpydEaYqAsAYiQ
+        qt1B29ui4EmEMqtVH5srrzuBQUJiKkN8qZxPdW78W03EbNBU5s3e+OOE7rLG
+        hiUaIeNCXKZbr0Neb3c6Qs2h1hatT2jnhv1wzIUMwblxbamOaa2q8DUqdGla
+        nZVNqx2KkNXtzve7DckIJdHlB/7YdsFWb43z2oY8EWptU5hSp6ZS20588b51
+        69XqcDg8b63aK6/sc9ZUq8vrCjQWORUFySgG0ITRIqZ58ZsyLgDy4pvbABFP
+        +cbkuvYma+onu/nxPWQqTf06JAj/d15lr81e26JsDn2CbotudTnganSgS2FS
+        25dPiPM5eg+PSEbFGB6RSTINj1GaCDYNj1FG4A68qz7Aixd4n4QXzCD4GB6J
+        ZSzZFDwSTEmFmAX0Xx8AwQhQoUq3EHqIEGZUMj4ihBnDHCbtBRi4xPMWuuoz
+        hBYLPQhIAsZA8VtAEijHMAVIYE4FBzIH6KYPgPAC6LMNKnQiPnYQJDzB0w7i
+        IGI+06A4SN5Vec5dV32B93XTBWfk/XQhCZ6ZLpiQ9yeIXp8BtDSoxxuUxJzT
+        cYOSWIppe5FEMjF7/930hdDXjRAJFsm7EYJzmJ7QITAQdy65q74Q+hihX1Eg
+        1HiVWl0pU5t6i9ZSdmPzZblSf8PRcXgi9KJcWvVl7st6/geF/SVtRg8AAA==
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:20:28 GMT
+recorded_with: VCR 2.6.0

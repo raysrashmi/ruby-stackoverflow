@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/users/1363236/badges?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&order=asc&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMToyMToyMCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDAx
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAO1VQU+DMBT+Lz14InZQNwfJ4sEYryZ6M4a8lTfWjLb4WsS5
+        7L9bYJrNZPG0G1yA9n3fe/2+fLBjyqN2LHvdsSUUJeaqYFkcMQKzYRlbkjVf
+        yCJmQGN4f0GQa6SwAC1QkUvbGN8DBrTf1l1ZV12EosaF2mzX3wdmMROJmEWs
+        UK6uYJsfeAm2jsCttQoowrrx4JU1ATCNB5ofasJSOY/U89dkV6oKQ2sou821
+        97XLOG/b9rok+AAPdC2t5sMjR4HTNBHyFpN0ehNP55gu0+XkJhUyjUUi79wi
+        TuZXxUIVaLyS1lzR4ukxdKpUr0fXIPA7D3JjP5BWlW37Bt2Ijh+Ox4+Os/8f
+        20sXwNwf1N1Hx24kZ9149k035+jGBdxIwtag7qkb4qwbD4XydozGJcwQHAdx
+        T72YnU9GU9eW/PiluogdM+5+9f2TjvO/jnurdRgVxoxcKCMxl0cS798i9t5Y
+        DzmhBmWUKVmWpvPJz7KGz6DPJFwRW4PLtaWgwQoqh/tvootb2xcIAAA=
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:21:20 GMT
+recorded_with: VCR 2.6.0

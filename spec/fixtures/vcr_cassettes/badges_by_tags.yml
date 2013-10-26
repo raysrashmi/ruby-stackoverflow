@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/badges//tags?access_token=L0J88cciBPHiGtIKCul6Gg))&inname=ruby-on-rails&key=pfllsDjWHeLGWoWIT5rRdA((&max=bronze&min=gold&site=stackoverflow&sort=rank
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        U2F0LCAyNiBPY3QgMjAxMyAxMToyMjoyMCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        Mjk0
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAK3S0W7CIBQG4HfhuhWwVG1fZVma0xYrsYACnXPGdx91mZmY
+        OJKWOwic/8s5XJBwXFpUvl1QDW3HK9GikhGaIANqj0pUG62+OEqQAsn93gz1
+        OdUqNSB664/hBKatGj0oh8r1+PCnjjsfxusOuqoGy1t/tRe3ijvnDiXG1kGz
+        1x/cbHt9WjRa4ttDi306fky5Jn91BSNxujQLfTRn030+H4c5j0K6Xm1iiQsa
+        IvPpxBEQGlMaKjPG7korel8nvpGrGZA+/59GFiQOGPKKzQxjJi9/4ZJld1un
+        +zZSRovpMh/9mkaWJMb2PNYZvt4Y/jzV9wQdB+2gMlyCUEJ1fkhFTn+PJXz6
+        3hC/ErQDW0ltfP4Wesuv3zMGZhmkBAAA
+    http_version: 
+  recorded_at: Sat, 26 Oct 2013 11:22:20 GMT
+recorded_with: VCR 2.6.0

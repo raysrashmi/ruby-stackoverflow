@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/comments/129085;131326?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDo1MyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NDAw
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAK2QT2/cIBDFvwuHnMjaBoz/SKseEqXXHHqrKmsM410U2zjA
+        xolW/u7FdipVaS5VywU0w5s373clJuDgSf39SpQdBhxDYzSpM55xJimZrN8L
+        LKtSLihRDiEYOzYaAsZ/jEleyIxxSryybi2llKCOY6Oqg94jJXYe0ZH6Si4e
+        3T6/kDJKtPFTD2/NCENUkm8YzkAocThdwmazGheM7sLwNq2/HJ6MD+iiQVzQ
+        2c702JgBTmvzHMLk6ySZ5/lwcvACAdwhJkv2ZyKySqlUaqlbmXGdChBpmcYi
+        5m28+Rd/zFh5o49GRxZG2fHGHR+/RqfejE/vBnG+D6Ce7Au6rrfzZrCu6JMt
+        WBLeg4BSOIXGbaxKuSz0A2ZWpWX+O+Yoz4tPMccWK/8SM+dMiD8wPxzuD3cQ
+        EfYfWIvqf6JuNabYZkIhiqJjwPKqylsNpdS846n8V9RbuKS71bdqD7MsPyh5
+        vtgAjcMBzGjGE6mjqfxVHuB1JRcPJWfwzbCh3PAtPwEIlTGeCwMAAA==
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:53 GMT
+recorded_with: VCR 2.6.0

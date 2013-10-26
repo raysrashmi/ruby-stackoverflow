@@ -1,0 +1,94 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.1/questions/13804832/related?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbng=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAyNSBPY3QgMjAxMyAyMTozNDozNCBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        cHJpdmF0ZQ==
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctTWV0aG9kcw==":
+      - !binary |-
+        R0VULCBQT1NU
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctQ3JlZGVudGlhbHM=":
+      - !binary |-
+        ZmFsc2U=
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTkzNQ==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAEAK2Ya4/bNhaG/wohLIoWGI7EuzhAUAT7odki2aZJgH4oCoMS
+        KVuJLo4kj3c26H/fQ0n2jGV5Yq/nky1RF57zPjp8D78FeefKNrj781vwdePa
+        Lq+rRW6DO6K40oSJm6AwbbdwNu8W1nQORphilEql9E2QNs70t+yHqFZaxGS8
+        zaRdfp93D09vZYQydRO0ad34UzeBqdqtaxZpvam64USaunXn7GIcGecTU05h
+        Pl3eFXBj8KbeIlujf6GuyUvUrRxaOWORqSzqTF6gOkOuXHcPcLRsUV6hN5/e
+        vf05gAfAMQQcNJvkAdcVbuDqFs77Y/hpTZV3+X9d8NdNcJ+77W5iOroJ6m3l
+        muDuW7Bpx3lRITSjN4HN23VhHhaVKf3k3m7S1PQPdetN1+couIsjeER/Z/ew
+        9lc1bpm3nWuchSvXTZ3lhVvkpVn6wVXXrdu7MNxut7fLxtybzjS3aV2Gw99Q
+        G2WsJI6kUhmTJRyyo7k0kkjLiI1+bl8RGv9gX+XWVV2e1tUPzav3v8Cbirz6
+        Mr4Ant92Jv1S37smK+pt/wI/xTYcIguLXSSDKoumV1Lov7//nB1QbbijKVzV
+        W2xrnGMvGgbRsBcNg2jYi4brDPeiYS8Sziu86soCXp63IwyQqruu2bi/b6bA
+        Sh5pyvkMlFLFsRBKnIJSaskgVLaHMjoXSqlkTKMnUH7wLCGMPo4QoQ/Owvvq
+        Bn0YKTtF3yns/Gc2gx2NCeHH3MHBBDpyMXSgZX7bq3mbl8vNAJ34+pr9dvt5
+        vRyxWr4i55M0TDYcJnfAkZKXcTSKHPZZw7uc4WbM8j6b5/HCokjNFTgARsSR
+        LzZzLAkliTrJkoplRDT/P1jy89HysMB1NWpcCdlA7dqluSlQujINvBXyirKm
+        LtEaDssWrUy7eq64ncKL+gwc80WYptJXvAlfv9ar6p1rQLF6Wty0esHiRiw3
+        XBipRcJjZ1MVMaFTI21EhKMZv7a4jfGFnyGech/PtWh6nvoS19V4kA2PsuFH
+        2bCXDQ+yYS/bebgypRTn0RyuguuYy5jN4ApDUjN+ElchI8YiRU7jSk/gymCh
+        54JNS9+OM7/q9mtxAilbNvAsiwfxL2eUSDbLKCdC6uMa+NHcA23ZhE8WvyCe
+        KpHGpWnMqREkyrSNk9S4RPHUZEJIdjWeQ2hhuw/lAM04vgzNkZ1p1QQd+pV3
+        RqLvAwms64jOMEehPJKIU3mKOSjhSrDosUTGU+bYURHcY9V+LaDumWUJefWm
+        brqswvho5c4hSxI6ixZlUXxc/GxebqaejkbkJU2dsDJKDHVxKuPECSsSwrlL
+        nFZOcGLd1abOBxbuAjm0dNFFUI3678rdHioQAO8E8gbu/BWZcq2UmFuQoVSD
+        PeOEzNDmh0h8usLxiEowH3RPmzpzQfbT0erJevwBoEL1iNwdmpJpUAumtlqi
+        DNzex9/fou3KVaiqO7Rp+9N5ZZ9boV2bmjVc+BRXuLq9d97ZHJGrvJ+d60f8
+        53eE7h95UeSmRL/WlTtCGNL+gghnKdU2i7RjMUtSRRhQYtIMyhnLNDX6+r7E
+        Rxhuh4jw5zGiw7WbXsTySF54IAmekm3wIDAGgXvMvcAYBMa9wNgLfBboMQAp
+        mZxZrimc51ydLJ2UKyisMr7YXcaSCi6OzSWkFHmuf3HlY8/SNXAnBFl6k3mA
+        eIU2Vd1YHxsqABGowDBuEKSzBP7d2vn8D2NPWR+7uGmHDX8ho+u+2Tta9OPZ
+        xicGez2z5r9uV4V78J8mYJtPANcvufSnGYkpAcdFlEiMTSJtI2aZA59KFXNX
+        4z0EGJo+IE/iGNA1tXoEbler4UXYS7F05RMz8ET0Q+wrvBcde2GxFx2+hrQ+
+        i3YluN/zmaGdgAOHkZN9uR+XfRt24WaRf6UQ/KQ3HVsq6zKzKTpkCkiZs/1G
+        0Xf2hx6rA3vOsEZ8drMIzLaa2ywy1XID9LX/hmP7OgPF/1lnzk07eS75S4Kc
+        SJrF0CEIbqTgzlq/nZQSEmcuZvTq/aMh2LDYBeeDtcYHl47BHSCt1UVIj1Qd
+        bwT0XdeoLB6VxaOyZ7haAd5UzLnamEFzz5k+Aasf9/tl9NnSvOPxtb3PU7c3
+        E3syf/zJe1q/l+lxQmAk4JOFuppuGofyFpUPUGrtsz2UvxbmFQxEXsYt5fNu
+        OOb9jsYEWz8+DE1BfVE/QZl28DHHPEpNQk1qMyOTOEkyFSUJJVf3WkMI4UE0
+        h93WZRsBI0Kh6TV+TPyeUTDFfuPTJx6Dk/BFeVAY5y0uH/Co8AGsmSnaOVol
+        jRWfc8ywGEEXRmZMRj8ES8wpk+HHKZXicTuUT0l+suH5/s37vRUuTdtCbQVG
+        gO1/LN7/9vHTn7e3t3+hbd6tene8Xnhuf3wy9tMTlterNRz5Naj/WCsg6ly3
+        QEU0axc4uE913Mm9y7849GnTwBI7NcPkEN1NdRW80OZGSUQS5bIEiqx2CeOJ
+        JYxJra2IroZ3iC8sIR7cDfFcCGtPUAip3/ldryIeVcTrGtZ7Lx9+zH1/craa
+        gihfN3VnFlCGTV75ZuZOa0V3p0vzn35D2m9Jr0y7KHu8Brb/B6+WJvmKGgAA
+    http_version: 
+  recorded_at: Fri, 25 Oct 2013 21:34:34 GMT
+recorded_with: VCR 2.6.0

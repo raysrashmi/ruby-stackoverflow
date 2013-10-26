@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "comment_id": 18990742,
+      "post_id": 13804832,
+      "creation_date": 1355156949,
+      "score": 1,
+      "edited": false,
+      "owner": {
+        "user_id": 87189,
+        "display_name": "tadman",
+        "reputation": 58115,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/98e7d6edce863e7a1bf8199b082eb25e?s=128&d=identicon&r=PG",
+        "link": "http://stackoverflow.com/users/87189/tadman",
+        "accept_rate": 100
+      }
+    },
+    {
+      "comment_id": 18990542,
+      "post_id": 13804832,
+      "creation_date": 1355156515,
+      "score": 0,
+      "edited": false,
+      "owner": {
+        "user_id": 330057,
+        "display_name": "corsiKa",
+        "reputation": 34496,
+        "user_type": "registered",
+        "profile_image": "https://www.gravatar.com/avatar/eba3df62ea97ea9065ca70e9c06b80aa?s=128&d=identicon&r=PG",
+        "link": "http://stackoverflow.com/users/330057/corsika",
+        "accept_rate": 91
+      }
+    }
+  ],
+  "quota_remaining": 289,
+  "quota_max": 300,
+  "has_more": false
+}
