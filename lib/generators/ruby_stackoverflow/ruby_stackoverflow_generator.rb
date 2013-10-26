@@ -10,7 +10,7 @@ class RubyStackoverflowGenerator < Rails::Generators::Base
   end
 
   def install
-    template 'ruby-stackoverflow.rb', 'config/initializers/ruby-stackoverflow.rb'
+    template 'ruby_stackoverflow.rb', 'config/initializers/ruby_stackoverflow.rb'
   end
 
   private
