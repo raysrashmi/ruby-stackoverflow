@@ -1,4 +1,4 @@
-# Ruby::Stackoverflow
+# Ruby::Stackoverflow [![Code Climate](https://codeclimate.com/github/raysrashmi/ruby-stackoverflow.png)](https://codeclimate.com/github/raysrashmi/ruby-stackoverflow)
 
 Ruby toolkit to Stackoverflow API 
 
@@ -46,5 +46,4 @@ This command will create a ruby_stackoverflow.rb file in config/initializers.
 5. Create new Pull Request
 
 ##LICENSE
-
 
