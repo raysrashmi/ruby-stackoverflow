@@ -20,11 +20,11 @@ Or install it yourself as:
 
 <a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Users-calls'>User Calls</a>
 <br/>
-<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Users-calls'>Questions Calls</a>
+<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Questions-Calls'>Questions Calls</a>
 <br/>
-<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Users-calls'>Badges Calls</a>
+<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Badges-calls'>Badges Calls</a>
 <br/>
-<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Users-calls'>Badges Calls</a>
+<a href='https://github.com/raysrashmi/ruby-stackoverflow/wiki/Comments-calls'>Comments Calls</a>
 <br/>
 
 ##Configuration
