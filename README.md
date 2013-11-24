@@ -33,7 +33,7 @@ You can add your key and access-token for higher rate limit.
 To get Key and Access Token you have to register your app to http://stackapps.com/
 Run command in your application dir.
 
-    $ rails generate ruby-stackoverflow --client_key=<key> --access_token=<access token>
+    $ rails generate ruby_stackoverflow --client_key=<key> --access_token=<access token>
 
 This command will create a ruby_stackoverflow.rb file in config/initializers.
 
