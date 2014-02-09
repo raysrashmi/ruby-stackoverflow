@@ -10,8 +10,9 @@ module RubyStackoverflow
       VCR.use_cassette('users') do
         response = RubyStackoverflow.users({inname: 'raysrashmi', sort: 'reputation'})
         response.data.is_a?(Array).should be_true
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.creation_date).to eq('2012-04-28 18:05:37 UTC')
+        user = response.data.first
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.creation_date).to eq('2012-04-28 18:05:37 UTC')
       end
     end
 
@@ -40,10 +41,11 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_answers(['1363236'],{min: '2013-10-01', max: '2013-10-24'})
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.answers.count).to eq(13)
-        expect(response.data.first.answers.last.answer_id).to eq(19449714)
-        expect(response.data.first.answers.last.last_activity_date).to eq('2013-10-18 15:57:17 UTC')
+        user = response.data.first
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.answers.count).to eq(13)
+        expect(user.answers.last.answer_id).to eq(19449714)
+        expect(user.answers.last.last_activity_date).to eq('2013-10-18 15:57:17 UTC')
       end
     end
 
@@ -52,9 +54,10 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_badges(['1363236'],{order: 'asc'})
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.badges.count).to eq(5)
-        expect(response.data.first.badges.first.name).to eq('Teacher')
+        user = response.data.first
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.badges.count).to eq(5)
+        expect(user.badges.first.name).to eq('Teacher')
       end
     end
 
@@ -64,10 +67,11 @@ module RubyStackoverflow
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
         expect(response.data.count).to eq(1)
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.comments.count).to eq(17)
-        expect(response.data.first.comments.first.score).to eq(1)
-        expect(response.data.first.comments.first.comment_id).to eq(28886246)
+        user = response.data.first
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.comments.count).to eq(17)
+        expect(user.comments.first.score).to eq(1)
+        expect(user.comments.first.comment_id).to eq(28886246)
       end
     end
 
@@ -76,10 +80,12 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_replied_comments(['707894','1004415'], '1300151')
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('felipeclopes')
-        expect(response.data.first.comments.count).to eq(1)
-        expect(response.data.first.comments.first.score).to eq(0)
-        expect(response.data.first.comments.first.comment_id).to eq(28452392)
+        user = response.data.first
+
+        expect(user.display_name).to eq('felipeclopes')
+        expect(user.comments.count).to eq(1)
+        expect(user.comments.first.score).to eq(0)
+        expect(user.comments.first.comment_id).to eq(28452392)
       end
     end
 
@@ -88,9 +94,11 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_favorites_questions(['707894','1004415'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('Joel Grannas')
-        expect(response.data.first.questions.count).to eq(1)
-        expect(response.data.first.questions.last.view_count).to eq(151)
+        user = response.data.first
+
+        expect(user.display_name).to eq('Joel Grannas')
+        expect(user.questions.count).to eq(1)
+        expect(user.questions.last.view_count).to eq(151)
       end
     end
     it 'should get questions where users are mentioned' do
@@ -98,9 +106,11 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_with_mentioned_comments(['707894','1004415'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('Carlos Drew')
-        expect(response.data.first.comments.count).to eq(1)
-        expect(response.data.first.comments.last.score).to eq(0)
+        user = response.data.first
+
+        expect(user.display_name).to eq('Carlos Drew')
+        expect(user.comments.count).to eq(1)
+        expect(user.comments.last.score).to eq(0)
       end
     end
 
@@ -126,9 +136,11 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_questions(['1363236'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.questions.count).to eq(3)
-        expect(response.data.first.questions.last.view_count).to eq(65)
+        user = response.data.first
+
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.questions.count).to eq(3)
+        expect(user.questions.last.view_count).to eq(65)
       end
     end
 
@@ -152,9 +164,11 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_unanswered_questions(['707894'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('felipeclopes')
-        expect(response.data.first.questions.count).to eq(6)
-        expect(response.data.first.questions.last.view_count).to eq(1344)
+        user = response.data.first
+
+        expect(user.display_name).to eq('felipeclopes')
+        expect(user.questions.count).to eq(6)
+        expect(user.questions.last.view_count).to eq(1344)
       end
     end
 
@@ -163,9 +177,10 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_unaccepted_questions(['1363236'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('raysrashmi')
-        expect(response.data.first.questions.count).to eq(2)
-        expect(response.data.first.questions.last.view_count).to eq(65)
+        user = response.data.first
+        expect(user.display_name).to eq('raysrashmi')
+        expect(user.questions.count).to eq(2)
+        expect(user.questions.last.view_count).to eq(65)
       end
     end
 
@@ -174,9 +189,10 @@ module RubyStackoverflow
         response = RubyStackoverflow.users_reputations(['1363236'])
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(1)
-        expect(response.data.first.reputations.count).to eq(12)
-        expect(response.data.first.reputations.last.vote_type).to eq('down_votes')
-        expect(response.data.first.reputations.last.post_type).to eq('question')
+        user = response.data.first
+        expect(user.reputations.count).to eq(12)
+        expect(user.reputations.last.vote_type).to eq('down_votes')
+        expect(user.reputations.last.post_type).to eq('question')
       end
     end
 
@@ -186,9 +202,10 @@ module RubyStackoverflow
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(1)
         response.data.last.respond_to?(:display_name).should be_true
-        expect(response.data.first.display_name).to eq('felipeclopes')
-        expect(response.data.first.suggested_edits.count).to eq(8)
-        expect(response.data.first.suggested_edits.last.post_type).to eq('answer')
+        user = response.data.first
+        expect(user.display_name).to eq('felipeclopes')
+        expect(user.suggested_edits.count).to eq(8)
+        expect(user.suggested_edits.last.post_type).to eq('answer')
       end
     end
 
@@ -198,8 +215,9 @@ module RubyStackoverflow
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(1)
         response.data.last.respond_to?(:user_id).should be_true
-        expect(response.data.first.tags.count).to eq(30)
-        expect(response.data.first.tags.last.name).to eq('angularjs-directive')
+        user = response.data.first
+        expect(user.tags.count).to eq(30)
+        expect(user.tags.last.name).to eq('angularjs-directive')
       end
     end
 
@@ -209,8 +227,9 @@ module RubyStackoverflow
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(1)
         response.data.last.respond_to?(:user_id).should be_true
-        expect(response.data.first.answers.count).to eq(9)
-        expect(response.data.first.answers.last.score).to eq(0)
+        user = response.data.first
+        expect(user.answers.count).to eq(9)
+        expect(user.answers.last.score).to eq(0)
       end
     end
 
@@ -220,8 +239,9 @@ module RubyStackoverflow
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(1)
         response.data.last.respond_to?(:user_id).should be_true
-        expect(response.data.first.questions.count).to eq(3)
-        expect(response.data.first.questions.last.score).to eq(-2)
+        user = response.data.first
+        expect(user.questions.count).to eq(3)
+        expect(user.questions.last.score).to eq(-2)
       end
     end
 

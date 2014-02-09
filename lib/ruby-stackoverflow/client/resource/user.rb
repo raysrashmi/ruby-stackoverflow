@@ -62,9 +62,9 @@ module RubyStackoverflow
         end
 
         def create_user(attr_hash, users, hash_key=:owner) 
-          user_attr = attr_hash.delete(:owner) || attr_hash.delete(:proposing_user) || attr_hash.delete(:user) || attr_hash.delete(:user_id)
-          user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr } 
-          find_or_create_user(users, user_attr) 
+          user_attr = attr_hash.delete(hash_key)
+          user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr }
+          find_or_create_user(users, user_attr)
         end
 
         def has_badge?(data)
