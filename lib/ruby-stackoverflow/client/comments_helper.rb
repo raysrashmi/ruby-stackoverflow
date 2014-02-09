@@ -3,13 +3,13 @@ module RubyStackoverflow
     module CommentsHelper
 
       def comments(options = {})
-        comments_response(options)  
+        comments_response(options)
       end
       
       def comments_by_ids(ids, options = {})
         ids = join_ids(ids)
         url = ids 
-        comments_response(options, url)  
+        comments_response(options, url)
       end
 
       private

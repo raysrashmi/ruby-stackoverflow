@@ -29,7 +29,7 @@ module RubyStackoverflow
 
     attr_accessor :configuration
 
-    def getr(url,klass, options={})
+    def getr(url, klass, options={})
       request :get, url,klass ,options
     end
 
