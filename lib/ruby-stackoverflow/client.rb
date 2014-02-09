@@ -17,6 +17,7 @@ require 'ruby-stackoverflow/client/user_helper'
 require 'ruby-stackoverflow/client/question_helper'
 require 'ruby-stackoverflow/client/badges_helper'
 require 'ruby-stackoverflow/client/comments_helper'
+require 'ruby-stackoverflow/client/search'
 require 'ruby-stackoverflow/client/parse_options'
 
 module RubyStackoverflow
@@ -26,6 +27,7 @@ module RubyStackoverflow
     include RubyStackoverflow::Client::QuestionHelper
     include RubyStackoverflow::Client::BadgesHelper
     include RubyStackoverflow::Client::CommentsHelper
+    include RubyStackoverflow::Client::Search
 
     attr_accessor :configuration
 
@@ -41,7 +43,7 @@ module RubyStackoverflow
 
     def request(method, url, klass, options={})
       url = append_params_to_url(url, parse_options(options))
-      response = HTTParty.send(method,url)
+      response = HTTParty.send(method, url)
       parse_response(response, klass)
     end
 
