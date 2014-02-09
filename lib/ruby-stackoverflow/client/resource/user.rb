@@ -1,6 +1,7 @@
 module RubyStackoverflow
   class Client
     class User < Resource
+      USER_KEYS = [:owner, :user_id, :user, :proposing_user]
       attr_reader :badges, :answers, :comments, 
         :questions, :reputations,
         :suggested_edits, :tags, :posts, :permissions
@@ -57,7 +58,10 @@ module RubyStackoverflow
         end
 
         def create_user(attr_hash, users, hash_key=:owner) 
-          user_attr = attr_hash.delete(:owner) || attr_hash.delete(:user_id) || attr_hash.delete(:user) ||  attr_hash.delete(:proposing_user)
+          user_attr = attr_hash.delete(:owner) || attr_hash.delete(:user_id) || 
+            attr_hash.delete(:user) ||
+            attr_hash.delete(:proposing_user)
+
           user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr }
           find_or_create_user(users, user_attr)
         end

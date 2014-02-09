@@ -2,6 +2,7 @@ module RubyStackoverflow
   class Client
     class Question < Resource
       attr_reader :answers , :comments,:user, :posts
+
       def initialize(attributes_hash={})
         @answers = []
         @comments = []
@@ -13,15 +14,13 @@ module RubyStackoverflow
         def parse_data(data)
           questions = []
           data.each do|attr_hash|
-            if data_has_answer?(data)
+            if data_has_answer?(data) || data_has_timeline?(data)
               question = create_question(attr_hash, questions, :question_id)
               question.answers.push(Answer.new(attr_hash))
+              question.posts.push(Post.new(attr_hash))
             elsif data_has_comment?(data)
               question = create_question(attr_hash, questions,:post_id)
               question.comments.push(Comment.new(attr_hash))
-            elsif data_has_timeline?(data)
-              question = create_question(attr_hash, questions,:question_id)
-              question.posts.push(Post.new(attr_hash))
             else
               questions << new(attr_hash)
             end
