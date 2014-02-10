@@ -42,7 +42,7 @@ module RubyStackoverflow
     private
 
     def request(method, url, klass, options={})
-      url = append_params_to_url(url, parse_options(options))
+      url = URI.encode(append_params_to_url(url, parse_options(options)))
       response = HTTParty.send(method, url)
       parse_response(response, klass)
     end
