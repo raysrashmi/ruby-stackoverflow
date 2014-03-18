@@ -2,13 +2,14 @@
 module RubyStackoverflow
   class Client
     class ResponseData
-      attr_reader :data, :error
+      attr_reader :data, :has_more, :error
 
       def initialize(response, klass)
         if response[:items].nil?
           @error =  StackoverflowError.new(response) 
         else
           @data = format_data(response[:items], klass)
+          @has_more = response[:has_more]
         end
       end
 
