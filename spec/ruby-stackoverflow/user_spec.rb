@@ -37,8 +37,6 @@ module RubyStackoverflow
 
     it 'should get user answers' do
       VCR.use_cassette('users_answers') do
-        Timecop.freeze
-
         response = RubyStackoverflow.users_with_answers(['1363236'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
