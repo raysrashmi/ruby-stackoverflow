@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/users/1363236/timeline?access_token=L0J88cciBPHiGtIKCul6Gg))&fromdate=1381960800&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow&todate=1382220000
+    uri: https://api.stackexchange.com/2.1/users/1363236/timeline?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
     body:
       encoding: US-ASCII
       string: ''

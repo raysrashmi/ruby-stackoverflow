@@ -7,7 +7,7 @@ module RubyStackoverflow
           case k
           when :fromdate , :todate, :min, :max
             begin
-              options[k] = Date.parse(v).to_time.to_i
+              options[k] = Time.parse(v).to_i
             rescue
               options[k] = v
             end
