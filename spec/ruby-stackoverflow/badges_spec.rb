@@ -35,7 +35,7 @@ module RubyStackoverflow
 
     it 'should find recently added badges' do
       VCR.use_cassette('badges_by_recipients') do
-        response = RubyStackoverflow.badges_between_dates({page: 1, pagesize: 10, fromdate: '2013-08-01', todate: '2013-10-22'})
+        response = RubyStackoverflow.badges_between_dates({page: 1, pagesize: 10})
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(10)
         expect(response.data.first.name).to eq('Nice Answer')
@@ -44,7 +44,7 @@ module RubyStackoverflow
 
     it 'should find recently added badges by ids' do
       VCR.use_cassette('badges_by_recipients_by_ids') do
-        response = RubyStackoverflow.badges_between_dates_by_ids([146, 20],{page: 1, pagesize: 10, fromdate: '2013-08-01', todate: '2013-10-22'})
+        response = RubyStackoverflow.badges_between_dates_by_ids([146, 20],{page: 1, pagesize: 10})
         response.data.is_a?(Array).should be_true
         expect(response.data.count).to eq(10)
         expect(response.data.first.name).to eq('Nice Question')

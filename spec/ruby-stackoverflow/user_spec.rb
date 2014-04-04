@@ -37,7 +37,7 @@ module RubyStackoverflow
 
     it 'should get user answers' do
       VCR.use_cassette('users_answers') do
-        response = RubyStackoverflow.users_with_answers(['1363236'],{min: '2013-10-01', max: '2013-10-24'})
+        response = RubyStackoverflow.users_with_answers(['1363236'])
         response.data.is_a?(Array).should be_true
         response.data.last.respond_to?(:display_name).should be_true
         expect(response.data.first.display_name).to eq('raysrashmi')
@@ -257,7 +257,7 @@ module RubyStackoverflow
 
     it 'should get user timeline' do
       VCR.use_cassette('user_timeline') do
-        response = RubyStackoverflow.users_timeline(['1363236'],{fromdate: '2013-10-17', todate: '2013-10-20'})
+        response = RubyStackoverflow.users_timeline(['1363236'])
         data = response.data
 
         data.is_a?(Array).should be_true
