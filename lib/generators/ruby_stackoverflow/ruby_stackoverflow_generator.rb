@@ -14,7 +14,7 @@ class RubyStackoverflowGenerator < Rails::Generators::Base
   end
 
   private
-  
+
   def configuration_output
     output = <<-eos
 RubyStackoverflow.configure do|config|
@@ -24,8 +24,4 @@ end
     eos
     output
   end
-
-
- end
-
-
+end
