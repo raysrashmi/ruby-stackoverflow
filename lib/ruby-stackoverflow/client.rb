@@ -1,4 +1,5 @@
 require 'json'
+require 'uri'
 require 'ruby-stackoverflow/client/response_data'
 require 'ruby-stackoverflow/client/resource/resource'
 require 'ruby-stackoverflow/client/resource/user'
@@ -56,8 +57,8 @@ module RubyStackoverflow
     def append_params_to_url(url, options)
       url = Configuration.api_url + url
       options.merge!(key_params)
-      options = options.to_a.map{|k,v|"#{k}=#{v}"}
-      url+'?'+options.join('&')
+      options = URI.encode_www_form(options)
+      url+'?'+options
     end
 
     def key_params

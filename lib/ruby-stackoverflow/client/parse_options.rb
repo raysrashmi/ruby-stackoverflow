@@ -14,7 +14,7 @@ module RubyStackoverflow
           else
             options[k] = v
           end
-        end 
+        end
       end
 
       def join_ids(ids)
