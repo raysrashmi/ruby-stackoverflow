@@ -13,10 +13,12 @@ require 'ruby-stackoverflow/client/resource/tag'
 require 'ruby-stackoverflow/client/resource/post'
 require 'ruby-stackoverflow/client/resource/permission'
 require 'ruby-stackoverflow/client/resource/stackoverflow_error'
+require 'ruby-stackoverflow/client/resource/search'
 require 'ruby-stackoverflow/client/user_helper'
 require 'ruby-stackoverflow/client/question_helper'
 require 'ruby-stackoverflow/client/badges_helper'
 require 'ruby-stackoverflow/client/comments_helper'
+require 'ruby-stackoverflow/client/search_helper'
 require 'ruby-stackoverflow/client/parse_options'
 
 module RubyStackoverflow
@@ -26,6 +28,7 @@ module RubyStackoverflow
     include RubyStackoverflow::Client::QuestionHelper
     include RubyStackoverflow::Client::BadgesHelper
     include RubyStackoverflow::Client::CommentsHelper
+    include RubyStackoverflow::Client::SearchHelper
 
     attr_accessor :configuration
 
