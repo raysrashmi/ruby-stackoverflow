@@ -20,6 +20,7 @@ require 'ruby-stackoverflow/client/question_helper'
 require 'ruby-stackoverflow/client/badges_helper'
 require 'ruby-stackoverflow/client/comments_helper'
 require 'ruby-stackoverflow/client/search_helper'
+require 'ruby-stackoverflow/client/tag_helper'
 require 'ruby-stackoverflow/client/parse_options'
 
 module RubyStackoverflow
@@ -30,6 +31,7 @@ module RubyStackoverflow
     include RubyStackoverflow::Client::BadgesHelper
     include RubyStackoverflow::Client::CommentsHelper
     include RubyStackoverflow::Client::SearchHelper
+    include RubyStackoverflow::Client::TagHelper
 
     attr_accessor :configuration
 
