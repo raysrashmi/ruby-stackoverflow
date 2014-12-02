@@ -1,5 +1,5 @@
 require 'rails/generators'
-require 'ruby-stackoverflow'
+require 'ruby/stackoverflow'
 class RubyStackoverflowGenerator < Rails::Generators::Base
   desc "Creates the ruby-stackoverflow initializer file at config/initialize/ruby-stackoverflow.rb"
   class_option :client_key, :aliases => "-k", :type => :string, :desc => "Your Stackoverflow Client key"
