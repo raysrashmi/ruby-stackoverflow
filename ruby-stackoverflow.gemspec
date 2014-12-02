@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ruby-stackoverflow/version'
+require 'ruby/stackoverflow/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ruby-stackoverflow"
-  spec.version       = RubyStackoverflow::VERSION
+  spec.version       = Ruby::Stackoverflow::VERSION
   spec.authors       = ["Rashmi Yadav"]
   spec.email         = ["rays.rashmi@gmail.com"]
   spec.description   = %q{Ruby library for stackoverflow api}

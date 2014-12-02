@@ -17,7 +17,7 @@ class RubyStackoverflowGenerator < Rails::Generators::Base
 
   def configuration_output
     output = <<-eos
-RubyStackoverflow.configure do|config|
+Ruby::Stackoverflow.configure do|config|
   config.client_key = '#{options[:client_key]}'
   config.access_token = '#{options[:access_token]}'
 end

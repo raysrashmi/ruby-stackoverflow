@@ -1,31 +1,33 @@
 require 'spec_helper'
-module RubyStackoverflow
-  describe Client::CommentsHelper do
-    before(:each) do
-      configure_stackoverflow
-      @comments_basic_url= 'users/'
-      WebMock.allow_net_connect!
-    end
-
-    it 'should fetch comments' do
-      VCR.use_cassette('comments') do
-        response = RubyStackoverflow.comments({min: 1, max: 10, sort: 'votes'})
-        response.data.is_a?(Array).should be_true
-        expect(response.data.count).to eq(30)
-        expect(response.data.first.edited).to eq(false)
-        expect(response.data.first.score).to eq(10)
+module Ruby
+  module Stackoverflow
+    describe Client::CommentsHelper do
+      before(:each) do
+        configure_stackoverflow
+        @comments_basic_url= 'users/'
+        WebMock.allow_net_connect!
       end
-    end
 
-    it 'should fetch comments by ids' do
-      VCR.use_cassette('comments_by_ids') do
-        response = RubyStackoverflow.comments_by_ids(['129085', '131326'])
-        response.data.is_a?(Array).should be_true
-        expect(response.data.count).to eq(2)
-        expect(response.data.first.edited).to eq(false)
-        expect(response.data.first.score).to eq(10)
+      it 'should fetch comments' do
+        VCR.use_cassette('comments') do
+          response = Ruby::Stackoverflow.comments({min: 1, max: 10, sort: 'votes'})
+          response.data.is_a?(Array).should be_true
+          expect(response.data.count).to eq(30)
+          expect(response.data.first.edited).to eq(false)
+          expect(response.data.first.score).to eq(10)
+        end
       end
-    end
 
+      it 'should fetch comments by ids' do
+        VCR.use_cassette('comments_by_ids') do
+          response = Ruby::Stackoverflow.comments_by_ids(['129085', '131326'])
+          response.data.is_a?(Array).should be_true
+          expect(response.data.count).to eq(2)
+          expect(response.data.first.edited).to eq(false)
+          expect(response.data.first.score).to eq(10)
+        end
+      end
+
+    end
   end
 end

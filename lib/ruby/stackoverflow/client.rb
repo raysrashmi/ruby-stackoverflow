@@ -22,11 +22,11 @@ require 'ruby/stackoverflow/client/parse_options'
 module Ruby
   module Stackoverflow
     class Client
-      include RubyStackoverflow::Client::ParseOptions
-      include RubyStackoverflow::Client::UserHelper
-      include RubyStackoverflow::Client::QuestionHelper
-      include RubyStackoverflow::Client::BadgesHelper
-      include RubyStackoverflow::Client::CommentsHelper
+      include Ruby::Stackoverflow::Client::ParseOptions
+      include Ruby::Stackoverflow::Client::UserHelper
+      include Ruby::Stackoverflow::Client::QuestionHelper
+      include Ruby::Stackoverflow::Client::BadgesHelper
+      include Ruby::Stackoverflow::Client::CommentsHelper
 
       attr_accessor :configuration
 

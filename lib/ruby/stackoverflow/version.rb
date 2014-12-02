@@ -1,4 +1,6 @@
-module RubyStackoverflow
-  VERSION = "0.0.2"
+module Ruby
+  module Stackoverflow
+    VERSION = "0.0.2"
+  end
 end
 
