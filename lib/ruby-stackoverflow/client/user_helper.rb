@@ -43,7 +43,7 @@ module RubyStackoverflow
         url = id + '/notifications/unread'
         user_response(options, url)
       end
-      
+
       def users_with_favorites_questions(ids, options = {})
         ids = join_ids(ids)
         url = ids + '/favorites'
