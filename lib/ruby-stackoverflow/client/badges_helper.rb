@@ -2,48 +2,48 @@ module RubyStackoverflow
   class Client
     module BadgesHelper
 
-      def badges(options={})
+      def badges(options = {})
         badges_response(options)
-      end 
+      end
 
-      def badges_by_ids(ids, options={})
+      def badges_by_ids(ids, options = {})
         ids = join_ids(ids)
-        url = ids 
+        url = ids
         badges_response(options, url)
-      end 
+      end
 
-      def badges_by_ids(ids, options={})
+      def badges_by_ids(ids, options = {})
         ids = join_ids(ids)
-        url = ids 
+        url = ids
         badges_response(options, url)
-      end 
+      end
 
-      def badges_by_name(options={})
-        url ='/name'
+      def badges_by_name(options = {})
+        url = "/name"
         badges_response(options, url)
-      end 
+      end
 
-      def badges_between_dates(options={})
-        url ='/recipients'
+      def badges_between_dates(options = {})
+        url = "/recipients"
         badges_response(options, url)
-      end 
+      end
 
-      def badges_between_dates_by_ids(ids,options={})
+      def badges_between_dates_by_ids(ids, options = {})
         ids = join_ids(ids)
-        url = ids + '/recipients'
+        url = ids + "/recipients"
         badges_response(options, url)
-      end 
+      end
 
-      def badges_by_tags(options={})
-        url = '/tags'
+      def badges_by_tags(options = {})
+        url = "/tags"
         badges_response(options, url)
-      end 
+      end
 
       private
 
-      def badges_response(options={}, url='')
-        url =  'badges/'+ url
-        getr(url,'badge',options)
+      def badges_response(options = {}, url= "")
+        url = "badges/" + url
+        getr(url, "badge", options)
       end
     end
   end
