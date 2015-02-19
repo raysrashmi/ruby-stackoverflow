@@ -114,6 +114,11 @@ module RubyStackoverflow
         user_response(options, url)
       end
 
+      def user_top_tags(id, options ={})
+        url = id + '/top-tags'
+        user_response(options, url)
+      end
+
       def user_top_tags_by_answers(id, options ={})
         url = id + '/top-answer-tags'
         user_response(options, url)

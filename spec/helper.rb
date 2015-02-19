@@ -41,5 +41,5 @@ def stackoverflow_url(url, params)
 end
 
 def basic_stackoverflow_url
-  'https://api.stackexchange.com/2.1/'
+  'https://api.stackexchange.com/2.2/'
 end

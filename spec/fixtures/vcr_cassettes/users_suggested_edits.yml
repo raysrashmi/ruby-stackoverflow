@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/users/707894/suggested-edits?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/users/707894/suggested-edits?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
     body:
       encoding: US-ASCII
       string: ''
@@ -67,6 +67,6 @@ http_interactions:
         EhnlMc9mCYQuHl8JdAGB0iJPv348YEWcxSw9+3h4V49LYYWLgQICn3tl5Yli
         MxDSjGVMhDZ/hOpbX17EVwx/AEMU06fBeFla6KTS2KtoVRQ5fzZ38jOWHuML
         JSldGdQVrRrZOnj6F08QUJopEAAA
-    http_version: 
+    http_version:
   recorded_at: Fri, 25 Oct 2013 21:34:07 GMT
 recorded_with: VCR 2.6.0

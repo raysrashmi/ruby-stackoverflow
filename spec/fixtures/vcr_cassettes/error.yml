@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/users/1363236&&?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/users/1363236&&?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
     body:
       encoding: US-ASCII
       string: ''
@@ -48,6 +48,6 @@ http_interactions:
       string: !binary |-
         H4sIAAAAAAAEAKtWSi0qyi+Kz0xRsjIxMNGBcvMSc1OVrJTy8uNzU0sy8lOU
         YBK5qcXFiekQOQWInEJafmleikJ5ZkmGQklGZrECWHMtALvxi89aAAAA
-    http_version: 
+    http_version:
   recorded_at: Fri, 25 Oct 2013 21:20:40 GMT
 recorded_with: VCR 2.6.0
