@@ -1,4 +1,3 @@
-
 module RubyStackoverflow
   class Client
     class Post < Resource

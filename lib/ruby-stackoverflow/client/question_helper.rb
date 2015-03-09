@@ -1,7 +1,6 @@
 module RubyStackoverflow
   class Client
     module QuestionHelper
-
       def questions(options = {})
         question_response(options)
       end
@@ -51,10 +50,9 @@ module RubyStackoverflow
 
       private
 
-
       def question_response(options={}, url='')
         url = 'questions/' + url
-        getr(url,'question',options)
+        getr(url, 'question', options)
       end
     end
   end

@@ -1,7 +1,7 @@
 module RubyStackoverflow
   class Client
     class User < Resource
-      attr_reader :badges, :answers, :comments, 
+      attr_reader :badges, :answers, :comments,
         :questions, :reputations,
         :suggested_edits, :tags, :posts, :permissions
 
@@ -65,10 +65,10 @@ module RubyStackoverflow
           !user_array.empty? ?  user_array.first : new(user_attr)
         end
 
-        def create_user(attr_hash, users, hash_key=:owner) 
+        def create_user(attr_hash, users, hash_key=:owner)
           user_attr = attr_hash.delete(hash_key)
-          user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr } 
-          user = find_or_create_user(users, user_attr) 
+          user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr }
+          user = find_or_create_user(users, user_attr)
           users << user unless user_exists?(users, user_attr[:user_id])
           user
         end

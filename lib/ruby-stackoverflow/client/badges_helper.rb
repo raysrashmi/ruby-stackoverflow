@@ -1,20 +1,17 @@
 module RubyStackoverflow
   class Client
     module BadgesHelper
-
       def badges(options = {})
         badges_response(options)
       end
 
       def badges_by_ids(ids, options = {})
-        ids = join_ids(ids)
-        url = ids
+        url = join_ids(ids)
         badges_response(options, url)
       end
 
       def badges_by_ids(ids, options = {})
-        ids = join_ids(ids)
-        url = ids
+        url = join_ids(ids)
         badges_response(options, url)
       end
 

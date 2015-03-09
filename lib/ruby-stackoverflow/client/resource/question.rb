@@ -31,15 +31,15 @@ module RubyStackoverflow
 
         def data_has_answer?(data)
           data.first.include?(:answer_id)
-        end 
+        end
 
         def data_has_comment?(data)
           data.first.include?(:comment_id) && !data.first.include?(:timeline_type)
-        end 
+        end
 
         def data_has_timeline?(data)
           data.first.include?(:timeline_type)
-        end 
+        end
 
         def find_or_create_question(questions, qid)
           question_array = questions.select{|q|q.question_id == qid}
@@ -47,9 +47,9 @@ module RubyStackoverflow
         end
 
 
-        def create_question(attr_hash, questions, hash_key) 
+        def create_question(attr_hash, questions, hash_key)
           qid = attr_hash.delete(hash_key)
-          question = find_or_create_question(questions, qid) 
+          question = find_or_create_question(questions, qid)
           questions << question unless question_exists?(questions,qid)
           question
         end
@@ -58,9 +58,7 @@ module RubyStackoverflow
           question_array =  questions.select{|q|q.question_id == question_id }
           !question_array.empty?
         end
-
       end
-
     end
   end
 end

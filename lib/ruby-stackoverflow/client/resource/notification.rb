@@ -4,5 +4,3 @@ module RubyStackoverflow
     end
   end
 end
-
-

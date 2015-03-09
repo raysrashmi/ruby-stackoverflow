@@ -34,12 +34,12 @@ module RubyStackoverflow
         user_response(options, url)
       end
 
-       def users_notifications(id, options = {})
+      def users_notifications(id, options = {})
         url = id + '/notifications'
         user_response(options, url)
       end
 
-       def users_unread_notifications(id, options = {})
+      def users_unread_notifications(id, options = {})
         url = id + '/notifications/unread'
         user_response(options, url)
       end
@@ -142,10 +142,9 @@ module RubyStackoverflow
 
       private
 
-
       def user_response(options={}, url='')
         url =  'users/'+ url
-        getr(url,'user',options)
+        getr(url, 'user', options)
       end
     end
   end

@@ -1,7 +1,6 @@
 module RubyStackoverflow
   class Client
     module ParseOptions
-
       def parse_options(options = {})
         options.each do|k,v|
           case k
@@ -14,7 +13,7 @@ module RubyStackoverflow
           else
             options[k] = v
           end
-        end 
+        end
       end
 
       def join_ids(ids)
