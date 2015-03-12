@@ -9,7 +9,7 @@ module RubyStackoverflow
     it 'should find badges' do
       VCR.use_cassette('badges') do
         response = RubyStackoverflow.badges({min: 'gold', max: 'bronze', sort: 'rank'})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(30)
         expect(response.data.first.name).to eq('cryptography')
       end
@@ -18,7 +18,7 @@ module RubyStackoverflow
     it 'should find badges by ids' do
       VCR.use_cassette('badges_by_ids') do
         response = RubyStackoverflow.badges_by_ids([263, 264], {min: 'gold', max: 'bronze', sort: 'rank'})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(2)
         expect(response.data.first.name).to eq('cryptography')
       end
@@ -27,7 +27,7 @@ module RubyStackoverflow
     it 'should find badges by name' do
       VCR.use_cassette('badges_by_name') do
         response = RubyStackoverflow.badges_by_name({inname: 'teacher',min: 'gold', max: 'bronze', sort: 'rank'})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(1)
         expect(response.data.first.name).to eq('Teacher')
       end
@@ -36,7 +36,7 @@ module RubyStackoverflow
     it 'should find recently added badges' do
       VCR.use_cassette('badges_by_recipients') do
         response = RubyStackoverflow.badges_between_dates({page: 1, pagesize: 10})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(10)
         expect(response.data.first.name).to eq('Nice Answer')
       end
@@ -45,7 +45,7 @@ module RubyStackoverflow
     it 'should find recently added badges by ids' do
       VCR.use_cassette('badges_by_recipients_by_ids') do
         response = RubyStackoverflow.badges_between_dates_by_ids([146, 20],{page: 1, pagesize: 10})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(10)
         expect(response.data.first.name).to eq('Nice Question')
       end
@@ -54,7 +54,7 @@ module RubyStackoverflow
     it 'should find badges by tags' do
       VCR.use_cassette('badges_by_tags') do
         response = RubyStackoverflow.badges_by_tags({inname: 'ruby-on-rails',min: 'gold', max: 'bronze', sort: 'rank'})
-        response.data.is_a?(Array).should be_true
+        response.data.is_a?(Array).should be_truthy
         expect(response.data.count).to eq(7)
         expect(response.data.first.name).to eq('ruby-on-rails')
       end
