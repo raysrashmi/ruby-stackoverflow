@@ -10,7 +10,8 @@ module RubyStackoverflow
     it 'should fetch comments' do
       VCR.use_cassette('comments') do
         response = RubyStackoverflow.comments({min: 1, max: 10, sort: 'votes'})
-        response.data.is_a?(Array).should be_truthy
+
+        expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.count).to eq(30)
         expect(response.data.first.edited).to eq(false)
         expect(response.data.first.score).to eq(10)
@@ -20,7 +21,8 @@ module RubyStackoverflow
     it 'should fetch comments by ids' do
       VCR.use_cassette('comments_by_ids') do
         response = RubyStackoverflow.comments_by_ids(['129085', '131326'])
-        response.data.is_a?(Array).should be_truthy
+
+        expect(response.data.is_a?(Array)).to be_truthy
         expect(response.data.count).to eq(2)
         expect(response.data.first.edited).to eq(false)
         expect(response.data.first.score).to eq(10)
