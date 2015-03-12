@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/questions/19294359?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/questions/19294359?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
     body:
       encoding: US-ASCII
       string: ''
@@ -57,6 +57,6 @@ http_interactions:
         FsI+ybcltd1sLA/3/9d5XJMLH6cUdkgBBOxYsDrG8Ln4YFt7sDq2Q3YsWB0L
         4uDpmHL7TfDSKrIT3tmnr8kQ1BYHUFrpjvWVefwID/Cbjyfi5wsuWQ/b1bXQ
         O7z/ATLeIrH9AgAA
-    http_version: 
+    http_version:
   recorded_at: Fri, 25 Oct 2013 21:34:34 GMT
 recorded_with: VCR 2.6.0

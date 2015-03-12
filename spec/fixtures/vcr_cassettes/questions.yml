@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/questions/?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
+    uri: https://api.stackexchange.com/2.2/questions/?access_token=L0J88cciBPHiGtIKCul6Gg))&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow
     body:
       encoding: US-ASCII
       string: ''
@@ -160,6 +160,6 @@ http_interactions:
         RPu70doHMTfq63bJ5hyVxtn/LN9+vbyZT76l0ujfFpjh3u4bxnhYGq605EYL
         VyocgR/092VRd+K6AfsCtgUC5avM/b0Cf3gm7l09zhYWpqK9njnwXAbx/wv9
         hERBTAAA
-    http_version: 
+    http_version:
   recorded_at: Fri, 25 Oct 2013 21:34:40 GMT
 recorded_with: VCR 2.6.0

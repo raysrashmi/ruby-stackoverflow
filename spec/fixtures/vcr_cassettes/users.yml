@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.stackexchange.com/2.1/users/?access_token=L0J88cciBPHiGtIKCul6Gg))&inname=raysrashmi&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow&sort=reputation
+    uri: https://api.stackexchange.com/2.2/users/?access_token=L0J88cciBPHiGtIKCul6Gg))&inname=raysrashmi&key=pfllsDjWHeLGWoWIT5rRdA((&site=stackoverflow&sort=reputation
     body:
       encoding: US-ASCII
       string: ''
@@ -56,6 +56,6 @@ http_interactions:
         48HTIrSTUx8ZPl6sdnqlrLgjZW/BitNglY6+vM1I9EmmZuxkwm2F8jxPSlqh
         A3TU9ybQll1Yb1W3YfdSnVdSdD04a35TH8X1+jNi75MN0DrUII00PWvquqoe
         YQ2/KHlCJ2IDeELkHgCufwD4zSj6zAIAAA==
-    http_version: 
+    http_version:
   recorded_at: Fri, 25 Oct 2013 21:21:34 GMT
 recorded_with: VCR 2.6.0
