@@ -5,7 +5,7 @@ module RubyStackoverflow
 
       def initialize(response, klass)
         if response[:items].nil?
-          @error =  StackoverflowError.new(response)
+          @error = StackoverflowError.new(response)
         else
           @data = format_data(response[:items], klass)
           @has_more = response[:has_more]
