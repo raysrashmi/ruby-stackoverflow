@@ -1,4 +1,5 @@
 require 'json'
+require 'uri'
 require 'ruby-stackoverflow/client/response_data'
 require 'ruby-stackoverflow/client/resource/resource'
 require 'ruby-stackoverflow/client/resource/user'
@@ -13,10 +14,13 @@ require 'ruby-stackoverflow/client/resource/tag'
 require 'ruby-stackoverflow/client/resource/post'
 require 'ruby-stackoverflow/client/resource/permission'
 require 'ruby-stackoverflow/client/resource/stackoverflow_error'
+require 'ruby-stackoverflow/client/resource/search'
 require 'ruby-stackoverflow/client/user_helper'
 require 'ruby-stackoverflow/client/question_helper'
 require 'ruby-stackoverflow/client/badges_helper'
 require 'ruby-stackoverflow/client/comments_helper'
+require 'ruby-stackoverflow/client/search_helper'
+require 'ruby-stackoverflow/client/tag_helper'
 require 'ruby-stackoverflow/client/parse_options'
 
 module RubyStackoverflow
@@ -26,6 +30,8 @@ module RubyStackoverflow
     include RubyStackoverflow::Client::QuestionHelper
     include RubyStackoverflow::Client::BadgesHelper
     include RubyStackoverflow::Client::CommentsHelper
+    include RubyStackoverflow::Client::SearchHelper
+    include RubyStackoverflow::Client::TagHelper
 
     attr_accessor :configuration
 
@@ -53,8 +59,8 @@ module RubyStackoverflow
     def append_params_to_url(url, options)
       url = Configuration.api_url + url
       options.merge!(key_params)
-      options = options.to_a.map{|k,v|"#{k}=#{v}"}
-      url+'?'+options.join('&')
+      options = URI.encode_www_form(options)
+      url+'?'+options
     end
 
     def key_params
