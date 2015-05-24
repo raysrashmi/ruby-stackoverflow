@@ -1,7 +1,7 @@
-require 'httparty'
-require 'ruby-stackoverflow/version'
-require 'ruby-stackoverflow/client'
-require 'ruby-stackoverflow/configuration'
+require "httparty"
+require "ruby-stackoverflow/version"
+require "ruby-stackoverflow/client"
+require "ruby-stackoverflow/configuration"
 
 module RubyStackoverflow
   include HTTParty
