@@ -114,17 +114,17 @@ module RubyStackoverflow
         user_response(options, url)
       end
 
-      def user_top_tags(id, options ={})
+      def user_top_tags(id, options = {})
         url = id + '/top-tags'
         user_response(options, url)
       end
 
-      def user_top_tags_by_answers(id, options ={})
+      def user_top_tags_by_answers(id, options = {})
         url = id + '/top-answer-tags'
         user_response(options, url)
       end
 
-      def user_top_tags_by_questions(id, options ={})
+      def user_top_tags_by_questions(id, options = {})
         url = id + '/top-question-tags'
         user_response(options, url)
       end
@@ -147,8 +147,8 @@ module RubyStackoverflow
 
       private
 
-      def user_response(options={}, url='')
-        url =  'users/'+ url
+      def user_response(options = {}, url = '')
+        url =  'users/' + url
         getr(url, 'user', options)
       end
     end

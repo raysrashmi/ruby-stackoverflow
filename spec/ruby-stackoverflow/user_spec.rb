@@ -1,4 +1,5 @@
 require 'spec_helper'
+
 module RubyStackoverflow
   describe Client::UserHelper do
     before(:each) do
