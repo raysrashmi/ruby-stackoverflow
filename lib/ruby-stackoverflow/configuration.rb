@@ -1,6 +1,7 @@
 module RubyStackoverflow
   class Configuration
     attr_accessor(
+      :site,
       :client_id,
       :client_secret,
       :client_key,

@@ -53,12 +53,13 @@ module RubyStackoverflow
     def append_params_to_url(url, options)
       url = Configuration.api_url + url
       options.merge!(key_params)
+      options[:site] ||= configuration.site || 'stackoverflow'
       options = options.to_a.map{|k,v|"#{k}=#{v}"}
       url+'?'+options.join('&')
     end
 
     def key_params
-      {key: configuration.client_key, site: 'stackoverflow', access_token: configuration.access_token}
+      {key: configuration.client_key, access_token: configuration.access_token}
     end
 
     def configuration
