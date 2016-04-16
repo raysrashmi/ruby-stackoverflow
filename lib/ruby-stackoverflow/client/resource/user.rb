@@ -2,8 +2,8 @@ module RubyStackoverflow
   class Client
     class User < Resource
       attr_reader :badges, :answers, :comments,
-        :questions, :reputations,
-        :suggested_edits, :tags, :posts, :permissions
+                  :questions, :reputations,
+                  :suggested_edits, :tags, :posts, :permissions
 
       def initialize(attributes_hash)
         @badges =  []
@@ -11,7 +11,7 @@ module RubyStackoverflow
         @comments = []
         @questions = []
         @reputations = []
-        @suggested_edits=[]
+        @suggested_edits = []
         @tags = []
         @posts = []
         @permissions = []
@@ -21,7 +21,7 @@ module RubyStackoverflow
       class << self
         def parse_data(data)
           users = []
-          data.each do|attr_hash|
+          data.each do |attr_hash|
             if data_has_badge?(attr_hash)
               user = create_user(attr_hash, users, :user)
               user.badges.push(Badge.new(attr_hash))
@@ -61,20 +61,20 @@ module RubyStackoverflow
         private
 
         def find_or_create_user(users, user_attr)
-          user_array = users.select{|u|u.user_id == user_attr[:user_id] }
-          !user_array.empty? ?  user_array.first : new(user_attr)
+          user_array = users.select { |u| u.user_id == user_attr[:user_id] }
+          !user_array.empty? ? user_array.first : new(user_attr)
         end
 
-        def create_user(attr_hash, users, hash_key=:owner)
+        def create_user(attr_hash, users, hash_key = :owner)
           user_attr = attr_hash.delete(hash_key)
-          user_attr = user_attr.is_a?(Hash) ? user_attr : {user_id: user_attr }
+          user_attr = user_attr.is_a?(Hash) ? user_attr : { user_id: user_attr }
           user = find_or_create_user(users, user_attr)
           users << user unless user_exists?(users, user_attr[:user_id])
           user
         end
 
         def user_exists?(users, user_id)
-          user_array = users.select{|u|u.user_id == user_id }
+          user_array = users.select { |u| u.user_id == user_id }
           !user_array.empty?
         end
 
@@ -85,6 +85,7 @@ module RubyStackoverflow
         def data_has_answer?(data)
           data.include?(:answer_id)
         end
+
         def data_has_comment?(data)
           data.include?(:comment_id) && !data.include?(:timeline_type)
         end
@@ -108,6 +109,7 @@ module RubyStackoverflow
         def data_has_tag_score?(data)
           data.include?(:tag_name) && data.include?(:answer_score)
         end
+
         def data_has_timeline?(data)
           data.include?(:timeline_type)
         end

@@ -1,7 +1,7 @@
 module RubyStackoverflow
   class Client
     class StackoverflowError
-      attr_reader :error_code, :error_message, :error_name 
+      attr_reader :error_code, :error_message, :error_name
 
       def initialize(params)
         @error_name = params[:error_name]

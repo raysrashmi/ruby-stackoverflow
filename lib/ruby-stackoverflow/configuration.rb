@@ -9,7 +9,7 @@ module RubyStackoverflow
       :api_url)
 
     def self.api_url
-      'https://api.stackexchange.com/2.2/'
+      "https://api.stackexchange.com/2.2/"
     end
   end
 end

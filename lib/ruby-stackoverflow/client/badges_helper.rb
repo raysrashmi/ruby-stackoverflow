@@ -38,7 +38,7 @@ module RubyStackoverflow
 
       private
 
-      def badges_response(options = {}, url= "")
+      def badges_response(options = {}, url = "")
         url = "badges/" + url
         getr(url, "badge", options)
       end
