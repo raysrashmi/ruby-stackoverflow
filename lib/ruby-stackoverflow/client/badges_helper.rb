@@ -10,11 +10,6 @@ module RubyStackoverflow
         badges_response(options, url)
       end
 
-      def badges_by_ids(ids, options = {})
-        url = join_ids(ids)
-        badges_response(options, url)
-      end
-
       def badges_by_name(options = {})
         url = "/name"
         badges_response(options, url)
