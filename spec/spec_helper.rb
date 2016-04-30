@@ -1,10 +1,10 @@
-$:.unshift File.join(File.dirname(__FILE__),'..','lib')
+$:.unshift File.join(File.dirname(__FILE__), "..", "lib")
 
-require 'bundler/setup'
-require 'webmock/rspec'
-require 'vcr'
-require 'helper'
-require 'ruby-stackoverflow'
+require "bundler/setup"
+require "webmock/rspec"
+require "vcr"
+require "helper"
+require "ruby-stackoverflow"
 
 RSpec.configure do |config|
   config.expect_with :rspec do |c|
@@ -12,5 +12,5 @@ RSpec.configure do |config|
   end
 
   config.fail_fast = true
-  config.order = 'random'
+  config.order = "random"
 end

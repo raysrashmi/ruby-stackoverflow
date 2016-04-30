@@ -12,9 +12,9 @@ module RubyStackoverflow
 
       private
 
-      def comments_response(options={}, url='')
-        url = 'comments/' + url
-        getr(url, 'comment', options)
+      def comments_response(options = {}, url = "")
+        url = "comments/" + url
+        getr(url, "comment", options)
       end
     end
   end

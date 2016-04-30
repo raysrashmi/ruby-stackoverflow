@@ -1,6 +1,7 @@
 module RubyStackoverflow
   class Configuration
     attr_accessor(
+      :site,
       :client_id,
       :client_secret,
       :client_key,
@@ -8,7 +9,7 @@ module RubyStackoverflow
       :api_url)
 
     def self.api_url
-      'https://api.stackexchange.com/2.2/'
+      "https://api.stackexchange.com/2.2/"
     end
   end
 end

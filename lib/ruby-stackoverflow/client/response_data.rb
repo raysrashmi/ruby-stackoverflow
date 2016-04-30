@@ -13,7 +13,7 @@ module RubyStackoverflow
       end
 
       def format_data(data, klass)
-        eval(klass.capitalize).parse_data(data)
+        RubyStackoverflow::Client.const_get(klass.capitalize).parse_data(data)
       end
     end
   end
